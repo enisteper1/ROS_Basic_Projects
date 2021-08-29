@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/enis/ROS_Basics/devel/share/roseus/ros/ros_projects/manifest.l"
-  "/home/enis/ROS_Basics/devel/share/roseus/ros/ros_projects/srv/RectangleArea.l"
+  "/home/enis/ROS_Basic_Projects/devel/share/roseus/ros/ros_projects/manifest.l"
+  "/home/enis/ROS_Basic_Projects/devel/share/roseus/ros/ros_projects/srv/RectangleArea.l"
   "CMakeFiles/ros_projects_generate_messages_eus"
 )
 

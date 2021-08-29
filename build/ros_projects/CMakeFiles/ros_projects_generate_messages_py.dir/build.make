@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enis/ROS_Basics/src
+CMAKE_SOURCE_DIR = /home/enis/ROS_Basic_Projects/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enis/ROS_Basics/build
+CMAKE_BINARY_DIR = /home/enis/ROS_Basic_Projects/build
 
 # Utility rule file for ros_projects_generate_messages_py.
 
 # Include the progress variables for this target.
 include ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/progress.make
 
-ros_projects/CMakeFiles/ros_projects_generate_messages_py: /home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py
-ros_projects/CMakeFiles/ros_projects_generate_messages_py: /home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py
+ros_projects/CMakeFiles/ros_projects_generate_messages_py: /home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py
+ros_projects/CMakeFiles/ros_projects_generate_messages_py: /home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py
 
 
-/home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py: /home/enis/ROS_Basics/src/ros_projects/srv/RectangleArea.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enis/ROS_Basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV ros_projects/RectangleArea"
-	cd /home/enis/ROS_Basics/build/ros_projects && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/enis/ROS_Basics/src/ros_projects/srv/RectangleArea.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_projects -o /home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv
+/home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py: /home/enis/ROS_Basic_Projects/src/ros_projects/srv/RectangleArea.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enis/ROS_Basic_Projects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV ros_projects/RectangleArea"
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/enis/ROS_Basic_Projects/src/ros_projects/srv/RectangleArea.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_projects -o /home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv
 
-/home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py: /home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enis/ROS_Basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for ros_projects"
-	cd /home/enis/ROS_Basics/build/ros_projects && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv --initpy
+/home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py: /home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enis/ROS_Basic_Projects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for ros_projects"
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv --initpy
 
 ros_projects_generate_messages_py: ros_projects/CMakeFiles/ros_projects_generate_messages_py
-ros_projects_generate_messages_py: /home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py
-ros_projects_generate_messages_py: /home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py
+ros_projects_generate_messages_py: /home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py
+ros_projects_generate_messages_py: /home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py
 ros_projects_generate_messages_py: ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/build.make
 
 .PHONY : ros_projects_generate_messages_py
@@ -80,10 +80,10 @@ ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/build: ros_project
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/build
 
 ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/clean:
-	cd /home/enis/ROS_Basics/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/ros_projects_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/ros_projects_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/clean
 
 ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/depend:
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basics/src /home/enis/ROS_Basics/src/ros_projects /home/enis/ROS_Basics/build /home/enis/ROS_Basics/build/ros_projects /home/enis/ROS_Basics/build/ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basic_Projects/src /home/enis/ROS_Basic_Projects/src/ros_projects /home/enis/ROS_Basic_Projects/build /home/enis/ROS_Basic_Projects/build/ros_projects /home/enis/ROS_Basic_Projects/build/ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/depend
 

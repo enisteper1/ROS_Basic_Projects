@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/enis/ROS_Basics/devel/lib/ros_projects/msg_sub"
-  "/home/enis/ROS_Basics/devel/lib/ros_projects/msg_sub.pdb"
+  "/home/enis/ROS_Basic_Projects/devel/lib/ros_projects/msg_sub"
+  "/home/enis/ROS_Basic_Projects/devel/lib/ros_projects/msg_sub.pdb"
   "CMakeFiles/msg_sub.dir/src/publisher_subscriber/cpp/message_subscriber.cpp.o"
 )
 

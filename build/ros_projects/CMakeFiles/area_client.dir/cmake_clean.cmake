@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/enis/ROS_Basics/devel/lib/ros_projects/area_client"
-  "/home/enis/ROS_Basics/devel/lib/ros_projects/area_client.pdb"
+  "/home/enis/ROS_Basic_Projects/devel/lib/ros_projects/area_client"
+  "/home/enis/ROS_Basic_Projects/devel/lib/ros_projects/area_client.pdb"
   "CMakeFiles/area_client.dir/src/server_client/cpp/area_client.cpp.o"
 )
 

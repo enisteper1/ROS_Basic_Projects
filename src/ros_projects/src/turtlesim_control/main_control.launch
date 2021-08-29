@@ -1,0 +1,4 @@
+<launch>
+	<node name="turtlesim" pkg="turtlesim" type="turtlesim_node"/>
+	<node name="clean_node" pkg="ros_projects" type="main_control.py"/>
+</launch>

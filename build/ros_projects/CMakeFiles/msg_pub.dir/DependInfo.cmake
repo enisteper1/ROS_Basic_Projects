@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/enis/ROS_Basics/src/ros_projects/src/publisher_subscriber/cpp/message_publisher.cpp" "/home/enis/ROS_Basics/build/ros_projects/CMakeFiles/msg_pub.dir/src/publisher_subscriber/cpp/message_publisher.cpp.o"
+  "/home/enis/ROS_Basic_Projects/src/ros_projects/src/publisher_subscriber/cpp/message_publisher.cpp" "/home/enis/ROS_Basic_Projects/build/ros_projects/CMakeFiles/msg_pub.dir/src/publisher_subscriber/cpp/message_publisher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/enis/ROS_Basics/devel/include"
+  "/home/enis/ROS_Basic_Projects/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

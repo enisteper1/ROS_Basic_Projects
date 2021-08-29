@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/enis/ROS_Basics/src/ros_projects/src/publisher_subscriber/cpp/message_subscriber.cpp
+/home/enis/ROS_Basic_Projects/src/ros_projects/src/publisher_subscriber/cpp/message_subscriber.cpp
 ros/ros.h
-/home/enis/ROS_Basics/src/ros_projects/src/publisher_subscriber/cpp/ros/ros.h
+/home/enis/ROS_Basic_Projects/src/ros_projects/src/publisher_subscriber/cpp/ros/ros.h
 std_msgs/String.h
-/home/enis/ROS_Basics/src/ros_projects/src/publisher_subscriber/cpp/std_msgs/String.h
+/home/enis/ROS_Basic_Projects/src/ros_projects/src/publisher_subscriber/cpp/std_msgs/String.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

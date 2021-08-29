@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enis/ROS_Basics/src
+CMAKE_SOURCE_DIR = /home/enis/ROS_Basic_Projects/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enis/ROS_Basics/build
+CMAKE_BINARY_DIR = /home/enis/ROS_Basic_Projects/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/enis/ROS_Basics/build/CMakeFiles /home/enis/ROS_Basics/build/ros_projects/CMakeFiles/progress.marks
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enis/ROS_Basics/build/CMakeFiles 0
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/enis/ROS_Basic_Projects/build/CMakeFiles /home/enis/ROS_Basic_Projects/build/ros_projects/CMakeFiles/progress.marks
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enis/ROS_Basic_Projects/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/clean
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/preinstall
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/preinstall
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ros_projects/CMakeFiles/msg_pub.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/msg_pub.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/msg_pub.dir/rule
 .PHONY : ros_projects/CMakeFiles/msg_pub.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ msg_pub: ros_projects/CMakeFiles/msg_pub.dir/rule
 
 # fast build rule for target.
 msg_pub/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/msg_pub.dir/build.make ros_projects/CMakeFiles/msg_pub.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/msg_pub.dir/build.make ros_projects/CMakeFiles/msg_pub.dir/build
 .PHONY : msg_pub/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ rosgraph_msgs_generate_messages_py: ros_projects/CMakeFiles/rosgraph_msgs_genera
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ rosgraph_msgs_generate_messages_lisp: ros_projects/CMakeFiles/rosgraph_msgs_gene
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ rosgraph_msgs_generate_messages_eus: ros_projects/CMakeFiles/rosgraph_msgs_gener
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : ros_projects/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ roscpp_generate_messages_lisp: ros_projects/CMakeFiles/roscpp_generate_messages_
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : ros_projects/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ _catkin_empty_exported_target: ros_projects/CMakeFiles/_catkin_empty_exported_ta
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/_catkin_empty_exported_target.dir/build.make ros_projects/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/_catkin_empty_exported_target.dir/build.make ros_projects/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : ros_projects/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ std_msgs_generate_messages_cpp: ros_projects/CMakeFiles/std_msgs_generate_messag
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : ros_projects/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ roscpp_generate_messages_nodejs: ros_projects/CMakeFiles/roscpp_generate_message
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : ros_projects/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ std_msgs_generate_messages_eus: ros_projects/CMakeFiles/std_msgs_generate_messag
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ rosgraph_msgs_generate_messages_cpp: ros_projects/CMakeFiles/rosgraph_msgs_gener
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_gencpp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_gencpp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_gencpp.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_gencpp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ ros_projects_gencpp: ros_projects/CMakeFiles/ros_projects_gencpp.dir/rule
 
 # fast build rule for target.
 ros_projects_gencpp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_gencpp.dir/build.make ros_projects/CMakeFiles/ros_projects_gencpp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_gencpp.dir/build.make ros_projects/CMakeFiles/ros_projects_gencpp.dir/build
 .PHONY : ros_projects_gencpp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/rule
 .PHONY : ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ _ros_projects_generate_messages_check_deps_RectangleArea: ros_projects/CMakeFile
 
 # fast build rule for target.
 _ros_projects_generate_messages_check_deps_RectangleArea/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/build.make ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/build.make ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/build
 .PHONY : _ros_projects_generate_messages_check_deps_RectangleArea/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/msg_sub.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/msg_sub.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/msg_sub.dir/rule
 .PHONY : ros_projects/CMakeFiles/msg_sub.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ msg_sub: ros_projects/CMakeFiles/msg_sub.dir/rule
 
 # fast build rule for target.
 msg_sub/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/msg_sub.dir/build.make ros_projects/CMakeFiles/msg_sub.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/msg_sub.dir/build.make ros_projects/CMakeFiles/msg_sub.dir/build
 .PHONY : msg_sub/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ rosgraph_msgs_generate_messages_nodejs: ros_projects/CMakeFiles/rosgraph_msgs_ge
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ros_projects/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/area_client.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/area_client.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/area_client.dir/rule
 .PHONY : ros_projects/CMakeFiles/area_client.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ area_client: ros_projects/CMakeFiles/area_client.dir/rule
 
 # fast build rule for target.
 area_client/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/area_client.dir/build.make ros_projects/CMakeFiles/area_client.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/area_client.dir/build.make ros_projects/CMakeFiles/area_client.dir/build
 .PHONY : area_client/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/area_server.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/area_server.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/area_server.dir/rule
 .PHONY : ros_projects/CMakeFiles/area_server.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ area_server: ros_projects/CMakeFiles/area_server.dir/rule
 
 # fast build rule for target.
 area_server/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/area_server.dir/build.make ros_projects/CMakeFiles/area_server.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/area_server.dir/build.make ros_projects/CMakeFiles/area_server.dir/build
 .PHONY : area_server/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : ros_projects/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ roscpp_generate_messages_eus: ros_projects/CMakeFiles/roscpp_generate_messages_e
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : ros_projects/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ roscpp_generate_messages_cpp: ros_projects/CMakeFiles/roscpp_generate_messages_c
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : ros_projects/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ std_msgs_generate_messages_lisp: ros_projects/CMakeFiles/std_msgs_generate_messa
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_geneus.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_geneus.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_geneus.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_geneus.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ ros_projects_geneus: ros_projects/CMakeFiles/ros_projects_geneus.dir/rule
 
 # fast build rule for target.
 ros_projects_geneus/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_geneus.dir/build.make ros_projects/CMakeFiles/ros_projects_geneus.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_geneus.dir/build.make ros_projects/CMakeFiles/ros_projects_geneus.dir/build
 .PHONY : ros_projects_geneus/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_gennodejs.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_gennodejs.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_gennodejs.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ ros_projects_gennodejs: ros_projects/CMakeFiles/ros_projects_gennodejs.dir/rule
 
 # fast build rule for target.
 ros_projects_gennodejs/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_gennodejs.dir/build.make ros_projects/CMakeFiles/ros_projects_gennodejs.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_gennodejs.dir/build.make ros_projects/CMakeFiles/ros_projects_gennodejs.dir/build
 .PHONY : ros_projects_gennodejs/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : ros_projects/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ std_msgs_generate_messages_py: ros_projects/CMakeFiles/std_msgs_generate_message
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_generate_messages.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -509,12 +509,12 @@ ros_projects_generate_messages: ros_projects/CMakeFiles/ros_projects_generate_me
 
 # fast build rule for target.
 ros_projects_generate_messages/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages.dir/build
 .PHONY : ros_projects_generate_messages/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ ros_projects_generate_messages_py: ros_projects/CMakeFiles/ros_projects_generate
 
 # fast build rule for target.
 ros_projects_generate_messages_py/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_py.dir/build
 .PHONY : ros_projects_generate_messages_py/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -539,12 +539,12 @@ ros_projects_generate_messages_cpp: ros_projects/CMakeFiles/ros_projects_generat
 
 # fast build rule for target.
 ros_projects_generate_messages_cpp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/build
 .PHONY : ros_projects_generate_messages_cpp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_generate_messages_eus.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_eus.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_eus.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -554,12 +554,12 @@ ros_projects_generate_messages_eus: ros_projects/CMakeFiles/ros_projects_generat
 
 # fast build rule for target.
 ros_projects_generate_messages_eus/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_eus.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_eus.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_eus.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_eus.dir/build
 .PHONY : ros_projects_generate_messages_eus/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -569,12 +569,12 @@ std_msgs_generate_messages_nodejs: ros_projects/CMakeFiles/std_msgs_generate_mes
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_genlisp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_genlisp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_genlisp.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_genlisp.dir/rule
 
 # Convenience name for target.
@@ -584,12 +584,12 @@ ros_projects_genlisp: ros_projects/CMakeFiles/ros_projects_genlisp.dir/rule
 
 # fast build rule for target.
 ros_projects_genlisp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_genlisp.dir/build.make ros_projects/CMakeFiles/ros_projects_genlisp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_genlisp.dir/build.make ros_projects/CMakeFiles/ros_projects_genlisp.dir/build
 .PHONY : ros_projects_genlisp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : ros_projects/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -599,12 +599,12 @@ roscpp_generate_messages_py: ros_projects/CMakeFiles/roscpp_generate_messages_py
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_py.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/roscpp_generate_messages_py.dir/build.make ros_projects/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -614,12 +614,12 @@ ros_projects_generate_messages_nodejs: ros_projects/CMakeFiles/ros_projects_gene
 
 # fast build rule for target.
 ros_projects_generate_messages_nodejs/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/build
 .PHONY : ros_projects_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_generate_messages_lisp.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_lisp.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_generate_messages_lisp.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -629,12 +629,12 @@ ros_projects_generate_messages_lisp: ros_projects/CMakeFiles/ros_projects_genera
 
 # fast build rule for target.
 ros_projects_generate_messages_lisp/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_lisp.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_lisp.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_generate_messages_lisp.dir/build.make ros_projects/CMakeFiles/ros_projects_generate_messages_lisp.dir/build
 .PHONY : ros_projects_generate_messages_lisp/fast
 
 # Convenience name for target.
 ros_projects/CMakeFiles/ros_projects_genpy.dir/rule:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_genpy.dir/rule
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 ros_projects/CMakeFiles/ros_projects_genpy.dir/rule
 .PHONY : ros_projects/CMakeFiles/ros_projects_genpy.dir/rule
 
 # Convenience name for target.
@@ -644,7 +644,7 @@ ros_projects_genpy: ros_projects/CMakeFiles/ros_projects_genpy.dir/rule
 
 # fast build rule for target.
 ros_projects_genpy/fast:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_genpy.dir/build.make ros_projects/CMakeFiles/ros_projects_genpy.dir/build
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/ros_projects_genpy.dir/build.make ros_projects/CMakeFiles/ros_projects_genpy.dir/build
 .PHONY : ros_projects_genpy/fast
 
 src/publisher_subscriber/cpp/message_publisher.o: src/publisher_subscriber/cpp/message_publisher.cpp.o
@@ -653,7 +653,7 @@ src/publisher_subscriber/cpp/message_publisher.o: src/publisher_subscriber/cpp/m
 
 # target to build an object file
 src/publisher_subscriber/cpp/message_publisher.cpp.o:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/msg_pub.dir/build.make ros_projects/CMakeFiles/msg_pub.dir/src/publisher_subscriber/cpp/message_publisher.cpp.o
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/msg_pub.dir/build.make ros_projects/CMakeFiles/msg_pub.dir/src/publisher_subscriber/cpp/message_publisher.cpp.o
 .PHONY : src/publisher_subscriber/cpp/message_publisher.cpp.o
 
 src/publisher_subscriber/cpp/message_publisher.i: src/publisher_subscriber/cpp/message_publisher.cpp.i
@@ -662,7 +662,7 @@ src/publisher_subscriber/cpp/message_publisher.i: src/publisher_subscriber/cpp/m
 
 # target to preprocess a source file
 src/publisher_subscriber/cpp/message_publisher.cpp.i:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/msg_pub.dir/build.make ros_projects/CMakeFiles/msg_pub.dir/src/publisher_subscriber/cpp/message_publisher.cpp.i
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/msg_pub.dir/build.make ros_projects/CMakeFiles/msg_pub.dir/src/publisher_subscriber/cpp/message_publisher.cpp.i
 .PHONY : src/publisher_subscriber/cpp/message_publisher.cpp.i
 
 src/publisher_subscriber/cpp/message_publisher.s: src/publisher_subscriber/cpp/message_publisher.cpp.s
@@ -671,7 +671,7 @@ src/publisher_subscriber/cpp/message_publisher.s: src/publisher_subscriber/cpp/m
 
 # target to generate assembly for a file
 src/publisher_subscriber/cpp/message_publisher.cpp.s:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/msg_pub.dir/build.make ros_projects/CMakeFiles/msg_pub.dir/src/publisher_subscriber/cpp/message_publisher.cpp.s
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/msg_pub.dir/build.make ros_projects/CMakeFiles/msg_pub.dir/src/publisher_subscriber/cpp/message_publisher.cpp.s
 .PHONY : src/publisher_subscriber/cpp/message_publisher.cpp.s
 
 src/publisher_subscriber/cpp/message_subscriber.o: src/publisher_subscriber/cpp/message_subscriber.cpp.o
@@ -680,7 +680,7 @@ src/publisher_subscriber/cpp/message_subscriber.o: src/publisher_subscriber/cpp/
 
 # target to build an object file
 src/publisher_subscriber/cpp/message_subscriber.cpp.o:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/msg_sub.dir/build.make ros_projects/CMakeFiles/msg_sub.dir/src/publisher_subscriber/cpp/message_subscriber.cpp.o
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/msg_sub.dir/build.make ros_projects/CMakeFiles/msg_sub.dir/src/publisher_subscriber/cpp/message_subscriber.cpp.o
 .PHONY : src/publisher_subscriber/cpp/message_subscriber.cpp.o
 
 src/publisher_subscriber/cpp/message_subscriber.i: src/publisher_subscriber/cpp/message_subscriber.cpp.i
@@ -689,7 +689,7 @@ src/publisher_subscriber/cpp/message_subscriber.i: src/publisher_subscriber/cpp/
 
 # target to preprocess a source file
 src/publisher_subscriber/cpp/message_subscriber.cpp.i:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/msg_sub.dir/build.make ros_projects/CMakeFiles/msg_sub.dir/src/publisher_subscriber/cpp/message_subscriber.cpp.i
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/msg_sub.dir/build.make ros_projects/CMakeFiles/msg_sub.dir/src/publisher_subscriber/cpp/message_subscriber.cpp.i
 .PHONY : src/publisher_subscriber/cpp/message_subscriber.cpp.i
 
 src/publisher_subscriber/cpp/message_subscriber.s: src/publisher_subscriber/cpp/message_subscriber.cpp.s
@@ -698,7 +698,7 @@ src/publisher_subscriber/cpp/message_subscriber.s: src/publisher_subscriber/cpp/
 
 # target to generate assembly for a file
 src/publisher_subscriber/cpp/message_subscriber.cpp.s:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/msg_sub.dir/build.make ros_projects/CMakeFiles/msg_sub.dir/src/publisher_subscriber/cpp/message_subscriber.cpp.s
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/msg_sub.dir/build.make ros_projects/CMakeFiles/msg_sub.dir/src/publisher_subscriber/cpp/message_subscriber.cpp.s
 .PHONY : src/publisher_subscriber/cpp/message_subscriber.cpp.s
 
 src/server_client/cpp/area_client.o: src/server_client/cpp/area_client.cpp.o
@@ -707,7 +707,7 @@ src/server_client/cpp/area_client.o: src/server_client/cpp/area_client.cpp.o
 
 # target to build an object file
 src/server_client/cpp/area_client.cpp.o:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/area_client.dir/build.make ros_projects/CMakeFiles/area_client.dir/src/server_client/cpp/area_client.cpp.o
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/area_client.dir/build.make ros_projects/CMakeFiles/area_client.dir/src/server_client/cpp/area_client.cpp.o
 .PHONY : src/server_client/cpp/area_client.cpp.o
 
 src/server_client/cpp/area_client.i: src/server_client/cpp/area_client.cpp.i
@@ -716,7 +716,7 @@ src/server_client/cpp/area_client.i: src/server_client/cpp/area_client.cpp.i
 
 # target to preprocess a source file
 src/server_client/cpp/area_client.cpp.i:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/area_client.dir/build.make ros_projects/CMakeFiles/area_client.dir/src/server_client/cpp/area_client.cpp.i
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/area_client.dir/build.make ros_projects/CMakeFiles/area_client.dir/src/server_client/cpp/area_client.cpp.i
 .PHONY : src/server_client/cpp/area_client.cpp.i
 
 src/server_client/cpp/area_client.s: src/server_client/cpp/area_client.cpp.s
@@ -725,7 +725,7 @@ src/server_client/cpp/area_client.s: src/server_client/cpp/area_client.cpp.s
 
 # target to generate assembly for a file
 src/server_client/cpp/area_client.cpp.s:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/area_client.dir/build.make ros_projects/CMakeFiles/area_client.dir/src/server_client/cpp/area_client.cpp.s
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/area_client.dir/build.make ros_projects/CMakeFiles/area_client.dir/src/server_client/cpp/area_client.cpp.s
 .PHONY : src/server_client/cpp/area_client.cpp.s
 
 src/server_client/cpp/area_server.o: src/server_client/cpp/area_server.cpp.o
@@ -734,7 +734,7 @@ src/server_client/cpp/area_server.o: src/server_client/cpp/area_server.cpp.o
 
 # target to build an object file
 src/server_client/cpp/area_server.cpp.o:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/area_server.dir/build.make ros_projects/CMakeFiles/area_server.dir/src/server_client/cpp/area_server.cpp.o
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/area_server.dir/build.make ros_projects/CMakeFiles/area_server.dir/src/server_client/cpp/area_server.cpp.o
 .PHONY : src/server_client/cpp/area_server.cpp.o
 
 src/server_client/cpp/area_server.i: src/server_client/cpp/area_server.cpp.i
@@ -743,7 +743,7 @@ src/server_client/cpp/area_server.i: src/server_client/cpp/area_server.cpp.i
 
 # target to preprocess a source file
 src/server_client/cpp/area_server.cpp.i:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/area_server.dir/build.make ros_projects/CMakeFiles/area_server.dir/src/server_client/cpp/area_server.cpp.i
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/area_server.dir/build.make ros_projects/CMakeFiles/area_server.dir/src/server_client/cpp/area_server.cpp.i
 .PHONY : src/server_client/cpp/area_server.cpp.i
 
 src/server_client/cpp/area_server.s: src/server_client/cpp/area_server.cpp.s
@@ -752,7 +752,7 @@ src/server_client/cpp/area_server.s: src/server_client/cpp/area_server.cpp.s
 
 # target to generate assembly for a file
 src/server_client/cpp/area_server.cpp.s:
-	cd /home/enis/ROS_Basics/build && $(MAKE) -f ros_projects/CMakeFiles/area_server.dir/build.make ros_projects/CMakeFiles/area_server.dir/src/server_client/cpp/area_server.cpp.s
+	cd /home/enis/ROS_Basic_Projects/build && $(MAKE) -f ros_projects/CMakeFiles/area_server.dir/build.make ros_projects/CMakeFiles/area_server.dir/src/server_client/cpp/area_server.cpp.s
 .PHONY : src/server_client/cpp/area_server.cpp.s
 
 # Help Target
@@ -823,6 +823,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

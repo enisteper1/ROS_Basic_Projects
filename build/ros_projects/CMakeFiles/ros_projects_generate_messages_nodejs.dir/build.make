@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enis/ROS_Basics/src
+CMAKE_SOURCE_DIR = /home/enis/ROS_Basic_Projects/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enis/ROS_Basics/build
+CMAKE_BINARY_DIR = /home/enis/ROS_Basic_Projects/build
 
 # Utility rule file for ros_projects_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/progress.make
 
-ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs: /home/enis/ROS_Basics/devel/share/gennodejs/ros/ros_projects/srv/RectangleArea.js
+ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs: /home/enis/ROS_Basic_Projects/devel/share/gennodejs/ros/ros_projects/srv/RectangleArea.js
 
 
-/home/enis/ROS_Basics/devel/share/gennodejs/ros/ros_projects/srv/RectangleArea.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/enis/ROS_Basics/devel/share/gennodejs/ros/ros_projects/srv/RectangleArea.js: /home/enis/ROS_Basics/src/ros_projects/srv/RectangleArea.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enis/ROS_Basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ros_projects/RectangleArea.srv"
-	cd /home/enis/ROS_Basics/build/ros_projects && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/enis/ROS_Basics/src/ros_projects/srv/RectangleArea.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_projects -o /home/enis/ROS_Basics/devel/share/gennodejs/ros/ros_projects/srv
+/home/enis/ROS_Basic_Projects/devel/share/gennodejs/ros/ros_projects/srv/RectangleArea.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/enis/ROS_Basic_Projects/devel/share/gennodejs/ros/ros_projects/srv/RectangleArea.js: /home/enis/ROS_Basic_Projects/src/ros_projects/srv/RectangleArea.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enis/ROS_Basic_Projects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ros_projects/RectangleArea.srv"
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/enis/ROS_Basic_Projects/src/ros_projects/srv/RectangleArea.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_projects -o /home/enis/ROS_Basic_Projects/devel/share/gennodejs/ros/ros_projects/srv
 
 ros_projects_generate_messages_nodejs: ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs
-ros_projects_generate_messages_nodejs: /home/enis/ROS_Basics/devel/share/gennodejs/ros/ros_projects/srv/RectangleArea.js
+ros_projects_generate_messages_nodejs: /home/enis/ROS_Basic_Projects/devel/share/gennodejs/ros/ros_projects/srv/RectangleArea.js
 ros_projects_generate_messages_nodejs: ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/build.make
 
 .PHONY : ros_projects_generate_messages_nodejs
@@ -73,10 +73,10 @@ ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/build: ros_pro
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/build
 
 ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/clean:
-	cd /home/enis/ROS_Basics/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/ros_projects_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/ros_projects_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/clean
 
 ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/depend:
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basics/src /home/enis/ROS_Basics/src/ros_projects /home/enis/ROS_Basics/build /home/enis/ROS_Basics/build/ros_projects /home/enis/ROS_Basics/build/ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basic_Projects/src /home/enis/ROS_Basic_Projects/src/ros_projects /home/enis/ROS_Basic_Projects/build /home/enis/ROS_Basic_Projects/build/ros_projects /home/enis/ROS_Basic_Projects/build/ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_nodejs.dir/depend
 

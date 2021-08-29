@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/enis/ROS_Basics/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/enis/ROS_Basics/devel/lib:$LD_LIBRARY_PATH"
-export PWD='/home/enis/ROS_Basics/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/enis/ROS_Basics/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/enis/ROS_Basics/src:$ROS_PACKAGE_PATH"
+export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
+export PWD='/home/enis/ROS_Basic_Projects/build'
+export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
+export ROS_PACKAGE_PATH='/home/enis/ROS_Basic_Projects/src:/opt/ros/noetic/share'

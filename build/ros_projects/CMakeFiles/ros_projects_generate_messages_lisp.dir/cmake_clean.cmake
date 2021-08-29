@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/enis/ROS_Basics/devel/share/common-lisp/ros/ros_projects/srv/RectangleArea.lisp"
+  "/home/enis/ROS_Basic_Projects/devel/share/common-lisp/ros/ros_projects/srv/RectangleArea.lisp"
   "CMakeFiles/ros_projects_generate_messages_lisp"
 )
 

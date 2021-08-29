@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enis/ROS_Basics/src
+CMAKE_SOURCE_DIR = /home/enis/ROS_Basic_Projects/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enis/ROS_Basics/build
+CMAKE_BINARY_DIR = /home/enis/ROS_Basic_Projects/build
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build: std_msgs_ge
 .PHONY : ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 
 ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/enis/ROS_Basics/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basics/src /home/enis/ROS_Basics/src/ros_projects /home/enis/ROS_Basics/build /home/enis/ROS_Basics/build/ros_projects /home/enis/ROS_Basics/build/ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basic_Projects/src /home/enis/ROS_Basic_Projects/src/ros_projects /home/enis/ROS_Basic_Projects/build /home/enis/ROS_Basic_Projects/build/ros_projects /home/enis/ROS_Basic_Projects/build/ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_projects/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 

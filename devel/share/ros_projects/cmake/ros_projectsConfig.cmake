@@ -67,14 +67,14 @@ set(ros_projects_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ros_projects_SOURCE_PREFIX /home/enis/ROS_Basics/src/ros_projects)
-  set(ros_projects_DEVEL_PREFIX /home/enis/ROS_Basics/devel)
+  set(ros_projects_SOURCE_PREFIX /home/enis/ROS_Basic_Projects/src/ros_projects)
+  set(ros_projects_DEVEL_PREFIX /home/enis/ROS_Basic_Projects/devel)
   set(ros_projects_INSTALL_PREFIX "")
   set(ros_projects_PREFIX ${ros_projects_DEVEL_PREFIX})
 else()
   set(ros_projects_SOURCE_PREFIX "")
   set(ros_projects_DEVEL_PREFIX "")
-  set(ros_projects_INSTALL_PREFIX /home/enis/ROS_Basics/install)
+  set(ros_projects_INSTALL_PREFIX /home/enis/ROS_Basic_Projects/install)
   set(ros_projects_PREFIX ${ros_projects_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ros_projects_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/enis/ROS_Basics/devel/include;/home/enis/ROS_Basics/src/ros_projects/include " STREQUAL " ")
+if(NOT "/home/enis/ROS_Basic_Projects/devel/include;/home/enis/ROS_Basic_Projects/src/ros_projects/include " STREQUAL " ")
   set(ros_projects_INCLUDE_DIRS "")
-  set(_include_dirs "/home/enis/ROS_Basics/devel/include;/home/enis/ROS_Basics/src/ros_projects/include")
+  set(_include_dirs "/home/enis/ROS_Basic_Projects/devel/include;/home/enis/ROS_Basic_Projects/src/ros_projects/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/enis/ROS_Basics/devel/include;/home/enis/ROS_Basics/src/ros_projec
         message(FATAL_ERROR "Project 'ros_projects' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ros_projects' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/enis/ROS_Basics/src/ros_projects/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'ros_projects' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/enis/ROS_Basic_Projects/src/ros_projects/${idir}'.  ${_report}")
     endif()
     _list_append_unique(ros_projects_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/enis/ROS_Basics/devel/lib;/home/enis/ros_projects/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/enis/ROS_Basic_Projects/devel/lib;/home/enis/ROS_Basic_Projects/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

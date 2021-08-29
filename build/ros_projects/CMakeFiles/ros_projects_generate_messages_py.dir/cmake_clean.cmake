@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py"
-  "/home/enis/ROS_Basics/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py"
+  "/home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/_RectangleArea.py"
+  "/home/enis/ROS_Basic_Projects/devel/lib/python3/dist-packages/ros_projects/srv/__init__.py"
   "CMakeFiles/ros_projects_generate_messages_py"
 )
 

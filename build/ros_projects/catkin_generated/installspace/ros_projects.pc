@@ -1,4 +1,4 @@
-prefix=/home/enis/ROS_Basics/install
+prefix=/home/enis/ROS_Basic_Projects/install
 
 Name: ros_projects
 Description: Description of ros_projects

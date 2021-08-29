@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/enis/ROS_Basics/devel/include/ros_projects/RectangleArea.h
+/home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleArea.h
 ros/service_traits.h
 -
 ros_projects/RectangleAreaRequest.h
@@ -14,7 +14,7 @@ ros_projects/RectangleAreaRequest.h
 ros_projects/RectangleAreaResponse.h
 -
 
-/home/enis/ROS_Basics/devel/include/ros_projects/RectangleAreaRequest.h
+/home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleAreaRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/enis/ROS_Basics/devel/include/ros_projects/RectangleAreaResponse.h
+/home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleAreaResponse.h
 string
 -
 vector
@@ -46,11 +46,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/enis/ROS_Basics/src/ros_projects/src/server_client/cpp/area_client.cpp
+/home/enis/ROS_Basic_Projects/src/ros_projects/src/server_client/cpp/area_client.cpp
 ros/ros.h
-/home/enis/ROS_Basics/src/ros_projects/src/server_client/cpp/ros/ros.h
+/home/enis/ROS_Basic_Projects/src/ros_projects/src/server_client/cpp/ros/ros.h
 ros_projects/RectangleArea.h
-/home/enis/ROS_Basics/src/ros_projects/src/server_client/cpp/ros_projects/RectangleArea.h
+/home/enis/ROS_Basic_Projects/src/ros_projects/src/server_client/cpp/ros_projects/RectangleArea.h
 cstdlib
 -
 

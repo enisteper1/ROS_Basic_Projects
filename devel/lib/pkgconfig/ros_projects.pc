@@ -1,8 +1,8 @@
-prefix=/home/enis/ROS_Basics/devel
+prefix=/home/enis/ROS_Basic_Projects/devel
 
 Name: ros_projects
 Description: Description of ros_projects
 Version: 0.0.0
-Cflags: -I/home/enis/ROS_Basics/devel/include -I/home/enis/ROS_Basics/src/ros_projects/include
+Cflags: -I/home/enis/ROS_Basic_Projects/devel/include -I/home/enis/ROS_Basic_Projects/src/ros_projects/include
 Libs: -L${prefix}/lib -lros_projects
 Requires: roscpp rospy std_msgs message_runtime

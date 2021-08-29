@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enis/ROS_Basics/src
+CMAKE_SOURCE_DIR = /home/enis/ROS_Basic_Projects/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enis/ROS_Basics/build
+CMAKE_BINARY_DIR = /home/enis/ROS_Basic_Projects/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basics/src /home/enis/ROS_Basics/src /home/enis/ROS_Basics/build /home/enis/ROS_Basics/build /home/enis/ROS_Basics/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basic_Projects/src /home/enis/ROS_Basic_Projects/src /home/enis/ROS_Basic_Projects/build /home/enis/ROS_Basic_Projects/build /home/enis/ROS_Basic_Projects/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

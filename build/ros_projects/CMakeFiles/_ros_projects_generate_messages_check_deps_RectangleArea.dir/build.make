@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enis/ROS_Basics/src
+CMAKE_SOURCE_DIR = /home/enis/ROS_Basic_Projects/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enis/ROS_Basics/build
+CMAKE_BINARY_DIR = /home/enis/ROS_Basic_Projects/build
 
 # Utility rule file for _ros_projects_generate_messages_check_deps_RectangleArea.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/enis/ROS_Basics/build
 include ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/progress.make
 
 ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea:
-	cd /home/enis/ROS_Basics/build/ros_projects && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ros_projects /home/enis/ROS_Basics/src/ros_projects/srv/RectangleArea.srv 
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ros_projects /home/enis/ROS_Basic_Projects/src/ros_projects/srv/RectangleArea.srv 
 
 _ros_projects_generate_messages_check_deps_RectangleArea: ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea
 _ros_projects_generate_messages_check_deps_RectangleArea: ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/build.make
@@ -67,10 +67,10 @@ ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea
 .PHONY : ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/build
 
 ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/clean:
-	cd /home/enis/ROS_Basics/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/cmake_clean.cmake
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/cmake_clean.cmake
 .PHONY : ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/clean
 
 ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/depend:
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basics/src /home/enis/ROS_Basics/src/ros_projects /home/enis/ROS_Basics/build /home/enis/ROS_Basics/build/ros_projects /home/enis/ROS_Basics/build/ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basic_Projects/src /home/enis/ROS_Basic_Projects/src/ros_projects /home/enis/ROS_Basic_Projects/build /home/enis/ROS_Basic_Projects/build/ros_projects /home/enis/ROS_Basic_Projects/build/ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_projects/CMakeFiles/_ros_projects_generate_messages_check_deps_RectangleArea.dir/depend
 

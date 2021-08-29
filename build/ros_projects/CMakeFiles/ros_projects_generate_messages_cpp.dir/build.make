@@ -43,28 +43,28 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enis/ROS_Basics/src
+CMAKE_SOURCE_DIR = /home/enis/ROS_Basic_Projects/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enis/ROS_Basics/build
+CMAKE_BINARY_DIR = /home/enis/ROS_Basic_Projects/build
 
 # Utility rule file for ros_projects_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/progress.make
 
-ros_projects/CMakeFiles/ros_projects_generate_messages_cpp: /home/enis/ROS_Basics/devel/include/ros_projects/RectangleArea.h
+ros_projects/CMakeFiles/ros_projects_generate_messages_cpp: /home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleArea.h
 
 
-/home/enis/ROS_Basics/devel/include/ros_projects/RectangleArea.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/enis/ROS_Basics/devel/include/ros_projects/RectangleArea.h: /home/enis/ROS_Basics/src/ros_projects/srv/RectangleArea.srv
-/home/enis/ROS_Basics/devel/include/ros_projects/RectangleArea.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/enis/ROS_Basics/devel/include/ros_projects/RectangleArea.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enis/ROS_Basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ros_projects/RectangleArea.srv"
-	cd /home/enis/ROS_Basics/src/ros_projects && /home/enis/ROS_Basics/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/enis/ROS_Basics/src/ros_projects/srv/RectangleArea.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_projects -o /home/enis/ROS_Basics/devel/include/ros_projects -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleArea.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleArea.h: /home/enis/ROS_Basic_Projects/src/ros_projects/srv/RectangleArea.srv
+/home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleArea.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleArea.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enis/ROS_Basic_Projects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ros_projects/RectangleArea.srv"
+	cd /home/enis/ROS_Basic_Projects/src/ros_projects && /home/enis/ROS_Basic_Projects/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/enis/ROS_Basic_Projects/src/ros_projects/srv/RectangleArea.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_projects -o /home/enis/ROS_Basic_Projects/devel/include/ros_projects -e /opt/ros/noetic/share/gencpp/cmake/..
 
 ros_projects_generate_messages_cpp: ros_projects/CMakeFiles/ros_projects_generate_messages_cpp
-ros_projects_generate_messages_cpp: /home/enis/ROS_Basics/devel/include/ros_projects/RectangleArea.h
+ros_projects_generate_messages_cpp: /home/enis/ROS_Basic_Projects/devel/include/ros_projects/RectangleArea.h
 ros_projects_generate_messages_cpp: ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/build.make
 
 .PHONY : ros_projects_generate_messages_cpp
@@ -75,10 +75,10 @@ ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/build: ros_projec
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/build
 
 ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/clean:
-	cd /home/enis/ROS_Basics/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/ros_projects_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/enis/ROS_Basic_Projects/build/ros_projects && $(CMAKE_COMMAND) -P CMakeFiles/ros_projects_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/clean
 
 ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/depend:
-	cd /home/enis/ROS_Basics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basics/src /home/enis/ROS_Basics/src/ros_projects /home/enis/ROS_Basics/build /home/enis/ROS_Basics/build/ros_projects /home/enis/ROS_Basics/build/ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/enis/ROS_Basic_Projects/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enis/ROS_Basic_Projects/src /home/enis/ROS_Basic_Projects/src/ros_projects /home/enis/ROS_Basic_Projects/build /home/enis/ROS_Basic_Projects/build/ros_projects /home/enis/ROS_Basic_Projects/build/ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_projects/CMakeFiles/ros_projects_generate_messages_cpp.dir/depend
 
