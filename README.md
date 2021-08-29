@@ -20,7 +20,8 @@ After satisfying requirements, first of all creating catkin folder is required w
 
 **Build files** `catkin_make`
 
-# Running an Python Script
+### Running a Python Script
+
 **Terminal 1** `roscore`
 
 **Terminal 2** `rosrun ros_projects tennis_ball_publisher.py`
