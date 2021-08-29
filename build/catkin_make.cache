@@ -1,0 +1,2 @@
+ros_projects
+-DCATKIN_DEVEL_PREFIX=/home/enis/ROS_Basics/devel -DCMAKE_INSTALL_PREFIX=/home/enis/ROS_Basics/install -G Unix Makefiles
