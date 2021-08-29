@@ -30,6 +30,7 @@ After satisfying requirements, first of all creating catkin folder is required w
 
 ### Running an Cpp Script
 First of all be sure about the cpp file which will be used is defined in `CMakeLists.txt` in ros_projects folder and built with `catkin_make` command.
+
 **Terminal 1** `roscore`
 
 **Terminal 2** `rosrun ros_projects image_pub`
