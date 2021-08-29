@@ -12,6 +12,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  cv_bridge
+  image_transport
 )
 
 ## System dependencies are found with CMake's conventions
@@ -138,6 +140,17 @@ add_dependencies(area_server ros_projects_gencpp)
 add_executable(area_client src/server_client/cpp/area_client.cpp)
 target_link_libraries(area_client ${catkin_LIBRARIES})
 add_dependencies(area_client ros_projects_gencpp)
+
+
+find_package(OpenCV)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(image_sub src/image_pub_sub/image_sub.cpp)
+target_link_libraries(image_sub ${catkin_LIBRARIES})
+target_link_libraries(image_sub ${OpenCV_LIBRARIES})
+
+add_executable(image_pub src/image_pub_sub/image_pub.cpp)
+target_link_libraries(image_pub ${catkin_LIBRARIES})
+target_link_libraries(image_pub ${OpenCV_LIBRARIES})
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
 # add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
